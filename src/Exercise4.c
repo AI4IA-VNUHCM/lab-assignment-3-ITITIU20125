@@ -37,6 +37,7 @@ int Ex4(int arr[], int n){
 	}
 	else
 	{
+		
 		return 0;
 	}
 }
