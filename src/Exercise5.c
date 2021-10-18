@@ -13,20 +13,24 @@ ______________________________________
 
 void Ex5(int arr[], int n){
 	//Your codes here
-	for( int i = 0; i <= n; i++)
+	
+	for( int i = 0; i <n; i++)
 	{
-		if(arr[i] >= 0 )
-		{
-			printf("%d",&i);
-		}
-		
+		for (int j = 0; j<n; j++ )
+	   {if(arr[i] > 0 )
+	    {
+		   if (i != j )
+		   {
+			   int temp = arr[i];
+			   arr[i] = arr[j];
+			   arr[j] = temp;
+		   }
+	    }	   
+	   }
 	}
-	for (int i = 0; i <= n; i++)
+	for (int i = 0; i< n; i++)
 	{
-		if(arr[i] <0 )
-		{
-			printf("%d",&i);
-		}
+		printf("%d ", arr[i]);
 	}
 }
 
