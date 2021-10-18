@@ -29,6 +29,7 @@ void Ex2(int arr[], int n){
 				}
 			}
 		}
+		
 		if (arr[i] % 2 != 0)
 		{
 			for (int j = i + 1; j < n; j++)
