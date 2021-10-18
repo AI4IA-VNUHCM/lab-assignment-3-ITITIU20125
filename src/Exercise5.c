@@ -7,13 +7,27 @@ ______________________________________
 |____________________________________|
 */
 
-#include <stdio.h>
+#include <stdio.h>	
 #include <stdlib.h>
 #include <math.h>
 
 void Ex5(int arr[], int n){
 	//Your codes here
-	
+	for( int i = 0; i <= n; i++)
+	{
+		if(arr[i] >= 0 )
+		{
+			printf("%d",&i);
+		}
+		
+	}
+	for (int i = 0; i <= n; i++)
+	{
+		if(arr[i] <0 )
+		{
+			printf("%d",&i);
+		}
+	}
 }
 
 int main(int argc, char *argv[]) {
