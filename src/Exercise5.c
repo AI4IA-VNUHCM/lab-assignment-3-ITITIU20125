@@ -20,7 +20,7 @@ void Ex5(int arr[], int n){
 	   {
 		   if(arr[i] < 0 )
 	    {
-		   if (i < j )
+		   if (arr[i] > arr[j] )
 		   {
 			   int temp = arr[i];
 			   arr[i] = arr[j];
