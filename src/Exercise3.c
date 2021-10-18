@@ -66,6 +66,7 @@ void Ex3(int in_arr[], int n){
 	printf("Decreasing ");
 	for (int j = de_idx; j < de_idx + max_de; j++)
 	{
+		
 		printf("%d ", in_arr[j]);
 	}
 }
