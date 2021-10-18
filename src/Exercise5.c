@@ -18,7 +18,7 @@ void Ex5(int arr[], int n){
 	{
 		for (int j = 0; j<n; j++ )
 	   {
-		   if(arr[i] < 0 )
+		   if(arr[i] <= 0 )
 	    {
 		   if (arr[i] > arr[j] )
 		   {
